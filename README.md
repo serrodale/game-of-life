@@ -6,7 +6,7 @@
 * Let the user define the time elapsed between each step.
 * Let the user define the number of rows/columns (when the game is not running).
 * Add a button to create a random initial state (when the game is not running).
-* Make the grid infinite by considering the neighbor of a cell in the edge, the ones on the opposite edge. An even further improvement could be to create a real infinite grid using virtualization.
+* Make the grid infinite by considering as neighbors of a cell in the edge, the ones on the opposite edge. An even further improvement could be to create a real infinite grid using virtualization.
 * Add tests (especially, on `utils.ts` and `useGameOfLife.ts`).
 
 I don't usually structure front-end applications like this; but, in this case, as it is a quite simple one, didn't want to over-complicate things.
